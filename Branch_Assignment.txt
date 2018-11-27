@@ -1,0 +1,49 @@
+1. Adds first_file
+
+	> $ git init
+	> $ add .
+	> $ git status
+	> $ git commit First_file.txt -m "adds first file"
+	
+2. Modifies the name of the file
+
+	> $ git mv First_file.txt First_Assignment.txt
+	> $ git status
+	> $ git commit -m"Rename File"
+
+3. Modifies the text in the file
+
+	> $ git add First_Assignment.txt
+	> $ git status
+	> $ git commit First_Assignment.txt -m "modifies the text"
+	
+4. Creates a new branch
+
+	> $ git branch
+		* master
+	> $ git branch new_branch
+	>$ git branch
+		* master
+ 		  new_branch
+	> $ git checkout new_branch
+	> $ git add First_Assignment.txt
+	> $ git commit First_Assignment.txt -m "adds new feature to it"
+5. To check difference between master and branch
+	
+	> git diff master..branch 
+
+6. merging the branches
+
+	> $ git checkout master
+	> $ git merge new_branch
+
+
+
+
+
+
+
+
+	
+	
+
